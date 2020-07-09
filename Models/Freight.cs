@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace freightWebApp.Models
 {
-    public class Movie
+    public class Freight
     {
         public int ID { get; set; }
-        public string Title { get; set; }
+        public string BrokerName { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
