@@ -1,0 +1,43 @@
+@page
+@model freightWebApp.PagesFreight.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Freight</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.BrokerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.BrokerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Commodity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Commodity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Linehaul)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Linehaul)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Freight.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

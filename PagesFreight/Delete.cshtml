@@ -1,0 +1,46 @@
+@page
+@model freightWebApp.PagesFreight.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Freight</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.BrokerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.BrokerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Commodity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Commodity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Freight.Linehaul)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Freight.Linehaul)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Freight.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
