@@ -20531,8 +20531,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/PagesFreight/Delete.cshtml",
-      "TargetPath": "PagesFreight\\Delete.cshtml",
+      "FilePath": "/Users/umayr/Documents/freightWebApp/Pages/Home.cshtml",
+      "TargetPath": "Pages\\Home.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20561,26 +20561,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/PagesFreight/Index.cshtml",
-      "TargetPath": "PagesFreight\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/PagesFreight/Details.cshtml",
-      "TargetPath": "PagesFreight\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/PagesFreight/Create.cshtml",
-      "TargetPath": "PagesFreight\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/umayr/Documents/freightWebApp/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -20593,11 +20573,6 @@
     {
       "FilePath": "/Users/umayr/Documents/freightWebApp/Pages/Details.cshtml",
       "TargetPath": "Pages\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umayr/Documents/freightWebApp/PagesFreight/Edit.cshtml",
-      "TargetPath": "PagesFreight\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

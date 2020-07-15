@@ -6,6 +6,8 @@ namespace freightWebApp.Models
     public class Freight
     {
         public int ID { get; set; }
+        
+        [Display(Name = "Broker Name")]
         public string BrokerName { get; set; }
 
         [DataType(DataType.Date)]

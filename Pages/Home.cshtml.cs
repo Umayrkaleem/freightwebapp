@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace freightWebApp.Pages
 {
-    public class PrivacyModel : PageModel
+    public class HomeModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<HomeModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public HomeModel(ILogger<HomeModel> logger)
         {
             _logger = logger;
         }

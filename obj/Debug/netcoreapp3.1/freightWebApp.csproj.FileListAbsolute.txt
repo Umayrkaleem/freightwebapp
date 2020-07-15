@@ -20,7 +20,6 @@
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/freightWebApp.RazorCoreGenerate.cache
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
@@ -166,3 +165,4 @@
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Details.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Edit.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/original index/Index.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Home.cshtml.g.cs
