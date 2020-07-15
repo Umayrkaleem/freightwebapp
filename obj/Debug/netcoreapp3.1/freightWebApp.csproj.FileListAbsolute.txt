@@ -161,11 +161,6 @@
 /Users/umayr/Documents/freightWebApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/umayr/Documents/freightWebApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/umayr/Documents/freightWebApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Create.cshtml.g.cs
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Delete.cshtml.g.cs
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Details.cshtml.g.cs
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Edit.cshtml.g.cs
-/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Index.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Create.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Delete.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Details.cshtml.g.cs
