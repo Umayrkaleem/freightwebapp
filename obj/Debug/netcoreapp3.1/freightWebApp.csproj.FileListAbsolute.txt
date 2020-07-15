@@ -166,3 +166,8 @@
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Details.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Edit.cshtml.g.cs
 /Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/PagesFreight/Index.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Create.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Delete.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Details.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Edit.cshtml.g.cs
+/Users/umayr/Documents/freightWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/original index/Index.cshtml.g.cs

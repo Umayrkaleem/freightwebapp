@@ -1,25 +1,29 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using freightWebApp.Data;
+using freightWebApp.Models;
 
 namespace freightWebApp.Pages
 {
-    public class IndexModel : PageModel
+    public class IndexModels : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly freightWebApp.Data.freightWebAppContext _context;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModels(freightWebApp.Data.freightWebAppContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public void OnGet()
-        {
+        public IList<Freight> Freight { get;set; }
 
+        public async Task OnGetAsync()
+        {
+            Freight = await _context.Freight.ToListAsync();
         }
     }
 }
