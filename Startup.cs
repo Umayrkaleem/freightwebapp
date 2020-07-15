@@ -30,14 +30,12 @@ namespace freightWebApp
             if (Environment.IsDevelopment())
             {
                 services.AddDbContext<freightWebAppContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("FreightContext")));
+                options.UseSqlite(Configuration.GetConnectionString("FreightContext")));
             }
             else
             {
                 services.AddDbContext<freightWebAppContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("FreightContext")));
+                options.UseSqlServer(Configuration.GetConnectionString("FreightContext")));
             }
 
         services.AddRazorPages();
